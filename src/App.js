@@ -20,6 +20,8 @@ const wagmiConfig = createConfig({
 })
 const ethereumClient = new EthereumClient(wagmiConfig, chains)
 
+
+
 function App() {
   return (
     <div >
@@ -32,5 +34,6 @@ function App() {
     </div>
   );
 }
+
 
 export default App;
